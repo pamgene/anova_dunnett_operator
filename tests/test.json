@@ -10,7 +10,7 @@
     }
   ],
   "inputDataUri": "groups_pairing_control_flag_exp.csv",
-  "outputDataUri": ["table1.csv","table2.csv"],
+  "outputDataUri": ["table1.csv","table2.csv","table3.csv"],
   "columns": [],
   "rows": ["Variable"],
   "colors": ["Pair"],
