@@ -90,7 +90,7 @@ verbose <- ifelse(is.null(ctx$op.value("Verbose")), "off", ctx$op.value("Verbose
 ctx %>% 
   dplyr::select(.ci, .ri, .y, .x) %>% 
   mutate(unit = ctx$select(ctx$colors) %>% pull()) %>%
-  mutate(controlFactor = ifelse(.x == "1", "C", "T")) %>%
+  mutate(controlFactor = ifelse(.x == "true", "C", "T")) %>%
   mutate(treatment = as.factor(paste(controlFactor, .ci, sep = "."))) %>%
   dplyr::select(-controlFactor) %>%
   group_by(.ri) %>%
