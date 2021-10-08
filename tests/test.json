@@ -11,7 +11,7 @@
   ],
   "inputDataUri": "groups_pairing_control_flag_exp.csv",
   "outputDataUri": ["table1.csv","table2.csv","table3.csv"],
-  "columns": [],
+  "columns": ["Group"],
   "rows": ["Variable"],
   "colors": ["Pair"],
   "labels": [],
