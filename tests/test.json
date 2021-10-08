@@ -1,0 +1,20 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "test",
+  "namespace": "ds0",
+  "propertyValues": [
+    {
+    "kind": "PropertyValue",
+    "name": "Verbose",
+    "value": "off"
+    }
+  ],
+  "inputDataUri": "groups_pairing_control_flag_exp.csv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "columns": [],
+  "rows": ["Variable"],
+  "colors": ["Pair"],
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": "Control.flag"
+}
