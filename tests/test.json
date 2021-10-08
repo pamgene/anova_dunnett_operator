@@ -1,7 +1,7 @@
 {
   "kind": "OperatorUnitTest",
   "name": "test",
-  "namespace": "ds0",
+  "namespace": "ds1",
   "propertyValues": [
     {
     "kind": "PropertyValue",
