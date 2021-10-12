@@ -17,4 +17,6 @@
   "labels": [],
   "yAxis": "Measurement",
   "xAxis": "Control.flag"
+  "absTol": 0.1,
+  "refTol": 0.1
 }
