@@ -4,7 +4,7 @@ library(pgCheckInput)
 library(multcomp)
 
 do.fit <- function(df, verbose = "off") {
-  if (length(levels(df$unit)) > 1 ){
+  if (length(levels(df$unit)) > 1 ) {
     model <- try(lm(.y ~ treatment + unit, data = df), silent = TRUE)
   } else {
     model <- try(lm(.y ~ treatment, data = df), silent = TRUE)
@@ -82,7 +82,7 @@ verbose <- ifelse(is.null(ctx$op.value("Verbose")), "off", ctx$op.value("Verbose
 
 ctx %>% 
   dplyr::select(.ci, .ri, .y, .x) %>% 
-  mutate(unit = ctx$select(ctx$colors) %>% pull()) %>%
+  mutate(unit = as.factor(ctx$select(ctx$colors) %>% pull())) %>%
   mutate(controlFactor = ifelse(.x == "true", "C", "T")) %>%
   mutate(treatment = as.factor(paste(controlFactor, .ci, sep = "."))) %>%
   dplyr::select(-controlFactor) %>%

@@ -31,17 +31,17 @@
   "Packages": {
     "MASS": {
       "Package": "MASS",
-      "Version": "7.3-53",
+      "Version": "7.3-54",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "d1bc1c8e9c0ace57ec9ffea01021d45f"
+      "Hash": "0e59129db205112e3963904db67fd0dc"
     },
     "Matrix": {
       "Package": "Matrix",
-      "Version": "1.3-2",
+      "Version": "1.3-4",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "ff280503079ad8623d3c4b1519b24ea2"
+      "Hash": "4ed05e9c9726267e4a5872e09c04587c"
     },
     "R6": {
       "Package": "R6",
@@ -52,17 +52,17 @@
     },
     "Rcpp": {
       "Package": "Rcpp",
-      "Version": "1.0.6",
+      "Version": "1.0.7",
       "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "dbb5e436998a7eba5a9d682060533338"
+      "Repository": "CRAN",
+      "Hash": "dab19adae4440ae55aa8a9d238b246bb"
     },
     "TH.data": {
       "Package": "TH.data",
-      "Version": "1.0-10",
+      "Version": "1.1-0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "84dffc44f23c419537c1c79cc46347a5"
+      "Hash": "26f97c62cab23881762215e12b43f99b"
     },
     "askpass": {
       "Package": "askpass",
@@ -143,10 +143,10 @@
     },
     "lattice": {
       "Package": "lattice",
-      "Version": "0.20-41",
+      "Version": "0.20-45",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "fbd9285028b0263d76d18c95ae51a53d"
+      "Hash": "b64cdbb2b340437c4ee047a1f4c4377b"
     },
     "lifecycle": {
       "Package": "lifecycle",
@@ -178,10 +178,10 @@
     },
     "mvtnorm": {
       "Package": "mvtnorm",
-      "Version": "1.1-2",
+      "Version": "1.1-3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6f0133c3842aef0394dbd844a21d3f5f"
+      "Hash": "7a7541cc284cb2ba3ba7eae645892af5"
     },
     "openssl": {
       "Package": "openssl",
@@ -199,8 +199,8 @@
       "RemoteRepo": "pgcheckinput",
       "RemoteUsername": "tercen",
       "RemoteRef": "HEAD",
-      "RemoteSha": "35aaa2f6aeed9e32d98fd8c425421fdc73104968",
-      "Hash": "e7c145d70e36e2cd97685c0547ae69cd"
+      "RemoteSha": "a39c847a6e1f51c3ae26a2e17f41c3d4c5598120",
+      "Hash": "50904f12eddb998c3ef1564df55f5801"
     },
     "pillar": {
       "Package": "pillar",
@@ -232,10 +232,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.13.2",
+      "Version": "0.14.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "079cb1f03ff972b30401ed05623cbe92"
+      "Hash": "30e5eba91b67f7f4d75d31de14bbfbdc"
     },
     "reshape": {
       "Package": "reshape",
@@ -260,10 +260,10 @@
     },
     "survival": {
       "Package": "survival",
-      "Version": "3.2-7",
+      "Version": "3.2-13",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "39c4ac6d22dad33db0ee37b40810ea12"
+      "Hash": "6f0a0fadc63bc6570fe172770f15bbc4"
     },
     "sys": {
       "Package": "sys",
