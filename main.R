@@ -80,9 +80,15 @@ check(ExactNumberOfFactors, ctx, groupingType = "xAxis", nFactors = 1)
 
 verbose <- ifelse(is.null(ctx$op.value("Verbose")), "off", ctx$op.value("Verbose"))
 
+if (length(ctx$colors) > 0) {
+  expGroupingFactor <- as.factor(ctx$select(ctx$colors) %>% pull())
+} else {
+  expGroupingFactor <- factor("none")
+}
+
 ctx %>% 
   dplyr::select(.ci, .ri, .y, .x) %>% 
-  mutate(unit = as.factor(ctx$select(ctx$colors) %>% pull())) %>%
+  mutate(unit = expGroupingFactor) %>%
   mutate(controlFactor = ifelse(.x == "true", "C", "T")) %>%
   mutate(treatment = as.factor(paste(controlFactor, .ci, sep = "."))) %>%
   dplyr::select(-controlFactor) %>%
