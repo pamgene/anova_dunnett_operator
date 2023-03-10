@@ -3,13 +3,13 @@
   "description": "Performs a statistical comparison of one control vs muliptle treatment conditions.",
   "tags": ["statistical testing", "test", "linear model", "pamgene"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/anova_dunnett_operator"],
+  "urls": ["https://github.com/pamgene/anova_dunnett_operator"],
   "properties": [
-   {
-    "kind": "StringProperty",
-    "name": "Verbose",
-    "defaultValue": "off",
-    "description": "Prints additional output"
+    {
+      "kind": "StringProperty",
+      "name": "Verbose",
+      "defaultValue": "off",
+      "description": "Prints additional output"
     }
   ]
 }
